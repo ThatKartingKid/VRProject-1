@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-sky src= "galaxy.jpg"></a-sky>
+            <a-sphere src="sun.jpg" radius="6" position="0 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 20000;"></a-sphere>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 5000; easing: linear; loop: true;">
+                <a-sphere src="mercury.jpg" radius="0.5" position="5 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 18500;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 6500; easing: linear; loop: true;">
+                <a-sphere src="venus.jpg" radius="0.75" position="10 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 17000;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 8000; easing: linear; loop: true;">
+                <a-sphere src="earthNight.jpg" radius="1.25" position="15 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 15500;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 9500; easing: linear; loop: true;">
+                <a-sphere src="mars.jpg" radius="0.75" position="20 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 14000;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 11000; easing: linear; loop: true;">
+                <a-sphere src="jupiter.jpg" radius="3" position="25 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 13500;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 12500; easing: linear; loop: true;">
+                <a-sphere src="saturn.jpg" radius="1.75" position="30 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 11000;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 14000; easing: linear; loop: true;">
+                <a-sphere src="uranus.jpg" radius="1.5" position="35 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 9500;"></a-sphere>
+            </a-entity>
+            <a-entity position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 16500; easing: linear; loop: true;">
+                <a-sphere src="neptune.jpg" radius="1.25" position="40 0 -10" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; easing: linear; dur: 8000;"></a-sphere>
+        </a-entity>
+
+    </body>
+</html>
